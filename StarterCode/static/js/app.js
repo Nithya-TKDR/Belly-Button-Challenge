@@ -78,7 +78,7 @@ function bar(selectedValue) {
         // An array of sample objects
         let samples = data.samples;
 
-        // Filter data where id = selected value
+        // Filter the data 
         let filteredData = samples.filter((sample) => sample.id === selectedValue);
 
         // Create the first object to obj variable
@@ -111,7 +111,7 @@ function bubble(selectedValue) {
         // An array of sample objects
         let samples = data.samples;
 
-        // Filter data where id = selected value
+        // Filter the data 
         let filteredData = samples.filter((sample) => sample.id === selectedValue);
 
         // Create the first object to obj variable
@@ -149,4 +149,5 @@ function optionChanged(selectedValue) {
     
 }
 
+// Initialize the Dashboard
 init();
