@@ -8,11 +8,11 @@ https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json
 
 
 **Outputs**: The challenge provides the following outputs for each of the different activities.
-> - *Part 1: Horizontal Bar Chart: Displays the top 10 OTUs found in the individual selected from the dropdown menu.
+> - *Part 1: [Horizontal Bar Chart:](https://github.com/Nithya-TKDR/Belly-Button-Challenge/blob/main/Images/hw02.png) Displays the top 10 OTUs found in the individual selected from the dropdown menu.
 Values: sample_values
 Labels: otu_ids
 Hovertext: otu_labels
-> - *Part 2: Bubble Chart: Displays each sample.
+> - *Part 2: [Bubble Chart:](https://github.com/Nithya-TKDR/Belly-Button-Challenge/blob/main/Images/bubble_chart.png) Displays each sample.
 X values: otu_ids
 Y values: sample_values
 Marker size: sample_values
