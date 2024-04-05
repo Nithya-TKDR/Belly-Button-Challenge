@@ -25,5 +25,6 @@ Text values: otu_labels
 > - https://plotly.com/javascript/gauge-charts/
 > - https://stackoverflow.com/questions/35510128/d3-js-color-function-each-gauge-section
 ---
-
+This is my local host link for my static page:
+http://127.0.0.1:5500/StarterCode/index.html
  
