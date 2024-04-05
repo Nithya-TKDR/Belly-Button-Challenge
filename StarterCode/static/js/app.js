@@ -58,12 +58,10 @@ function demo(selectedValue) {
         let entries = Object.entries(obj);
 
         // Iterate through the entries array
-        // Add a h5 child element for each key-value pair to the div with id sample-metadata
         entries.forEach(([key,value]) => {
             d3.select("#sample-metadata").append("h5").text(`${key}: ${value}`);
         });
 
-        // Log the entries 
         console.log(entries);
     });
   }
@@ -86,7 +84,7 @@ function bar(selectedValue) {
 
         // Create the trace for bar chart
         let trace = [{
-            // Store the first 10 results to display in the bar chart
+            // Display the first 10 results in the bar chart
             x: obj.sample_values.slice(0,10).reverse(),
             y: obj.otu_ids.slice(0,10).map((otu_id) => `OTU ${otu_id}`).reverse(),
             text: obj.otu_labels.slice(0,10).reverse(),
@@ -105,7 +103,7 @@ function bar(selectedValue) {
 // Create the bubble chart
 function bubble(selectedValue) {
     // Fetch the JSON data and console log it
-    //access the sample data for populating the bubble chart
+
     d3.json(url).then((data) => {
 
         // An array of sample objects
