@@ -3,6 +3,10 @@
 **Brief Description**: This challenge comprises of two separate tasks: 1) App.js which is a main file and 2) Bonus.js which has a gauge chart.
 This project embarks on an interactive exploration of microbial data from various individuals, leveraging the D3.js library to parse and visualize information from a comprehensive JSON dataset. At its core, the initiative aims to unveil the top Operational Taxonomic Units (OTUs) present in individuals, employing a variety of dynamic visualizations such as horizontal bar charts and bubble charts to represent the data's complexity and richness. Through an intuitive interface featuring dropdown menus and responsive charts, users can navigate through the dataset to uncover insights into the microbial communities within each sample. The visualization effort extends to displaying demographic metadata, enriching the context of each dataset explored. 
 
+### Deploy to Github Page:
+> - https://nithya-tkdr.github.io/Belly-Button-Challenge/
+ 
+
 **Inputs**: The challenge takes in as input a JSON file that has samples. Use the D3 library to read in samples.json from the URL<br>
 https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json
 
@@ -25,6 +29,4 @@ Text values: otu_labels
 > - https://plotly.com/javascript/gauge-charts/
 > - https://stackoverflow.com/questions/35510128/d3-js-color-function-each-gauge-section
 ---
-This is my local host link for my static page:
-http://127.0.0.1:5500/StarterCode/index.html
- 
+
