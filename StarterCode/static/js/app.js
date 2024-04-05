@@ -17,7 +17,7 @@ function init() {
         // Iterate through the names Array
         names.forEach((name) => {
             // Append each name as an option to the drop down menu
-            // This is adding each name to the html file as an option element with value = a name in the names array
+            // This will be adding each name to the html file as an option element with value = a name in the names array
             dropdownMenu.append("option").text(name).property("value", name);
         });
 
@@ -43,7 +43,7 @@ function demo(selectedValue) {
         // An array of metadata objects
         let metadata = data.metadata;
 
-        // Filter data where id = selected value after converting their types
+        // Filter the data
         // (bc meta.id is in integer format and selectValue from is in string format)
         let filteredData = metadata.filter((meta) => meta.id == selectedValue);
 
@@ -54,7 +54,6 @@ function demo(selectedValue) {
         d3.select("#sample-metadata").html("");
 
         // Object.entries() is a built-in method in JavaScript
-        // This returns an array of a given object's own enumerable property [key, value]
         let entries = Object.entries(obj);
 
         // Iterate through the entries array
